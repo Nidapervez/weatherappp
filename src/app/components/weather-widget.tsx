@@ -127,7 +127,7 @@ export default function WeatherWidget() {
 
   // JSX return statement rendering the weather widget UI
   return (
-    <div className="flex justify-center items-center h-screen">
+    <div className="flex justify-center items-center h-screen bg-black">
       {/* Center the card within the screen */}
       <Card className="w-full max-w-md mx-auto text-center">
         {/* Card header with title and description */}
