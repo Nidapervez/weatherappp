@@ -127,13 +127,13 @@ export default function WeatherWidget() {
 
   // JSX return statement rendering the weather widget UI
   return (
-    <div className="flex justify-center items-center h-screen">
+    <div className="flex justify-center items-center h-screen bg-black">
       {/* Center the card within the screen */}
-      <Card className="w-full max-w-md mx-auto text-center">
+      <Card className="w-full max-w-md mx-auto text-center  bg-gradient-to-r from-green-500">
         {/* Card header with title and description */}
         <CardHeader>
           <CardTitle>Weather Widget</CardTitle>
-          <CardDescription>
+          <CardDescription className="text-black">
             Search for the current weather conditions in your city.
           </CardDescription>
         </CardHeader>
